@@ -34,5 +34,4 @@ void recursive_delete(binary_tree_t *node)
 	recursive_delete(node->right);
 	/* delete parent node */
 	free(node);
-	return;
 }
