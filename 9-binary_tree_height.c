@@ -28,8 +28,8 @@ size_t binary_tree_height(const binary_tree_t *tree)
 /**
  * count - A function that counts the nodes
  * of a binary tree
- * node: the pointer to the parent node
- * height: the pointer to the height of the tree
+ * @node: the pointer to the parent node
+ * @height: the pointer to the height of the tree
  * Return: size_t
  */
 size_t count(const binary_tree_t *node, size_t height)
