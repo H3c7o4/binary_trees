@@ -1,5 +1,10 @@
 #ifndef BINARY_TREES_H
 #define BINARY_TREES_H
+
+/* Macros */
+#define MAX(X, Y) (((X) > (Y)) ? (X) : (Y))
+
+/* Useful librairies */
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
