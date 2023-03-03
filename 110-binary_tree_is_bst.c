@@ -55,10 +55,10 @@ int is_bst(const binary_tree_t *tree, int root)
 	if (tree->left != NULL && tree->right != NULL)
 		if ((tree->left)->n == (tree->right)->n)
 			return (0);
-	ch = is_bst(tree->left, root);
+	ch = is_bst(tree->left, tree->n);
 	if (ch == 0)
 		return (0);
-	ch = is_bst(tree->right, root);
+	ch = is_bst(tree->right, tree->n);
 	if (ch == 0)
 		return (0);
 	return (1);
