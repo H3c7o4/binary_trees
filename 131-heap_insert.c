@@ -133,6 +133,5 @@ heap_t *heap_insert(heap_t **root, int value)
 		temp->parent->n = swap;
 		temp = temp->parent;
 	}
-
 	return (temp);
 }
